@@ -1,0 +1,24 @@
+{
+  "suggestedTabDisplayName": "Comentario",
+  "configureTabMessage": "Haga clic en Guardar para comenzar.",
+  "signInText": "Iniciar sesión",
+  "loginErrorMessage": "Por favor inicie sesión para continuar.",
+  "generalErrorMessage": "Algo salió mal. Vuelve a intentarlo en unos minutos. Si el problema persiste, comuníquese con su administrador de TI para obtener ayuda.",
+  "unauthorizedErrorMessage": "No está autorizado para ver esta página.",
+
+  "excelViewHeaderText": "Datos de retroalimentación",
+  "columnHeaderMonthText": "Comentarios enviados en",
+  "columnHeaderNewHireNameText": "Nombre del nuevo empleado",
+  "columnHeaderFeedbackText": "Comentario",
+  "downloadFeedbackButtonText": "Descargar",
+  "noFeedbackDataFoundMessage": "No se encontraron comentarios.",
+
+  "feedbackExcelFileName": "Comentario",
+  "feedbackExcelSheetName": "Comentarios",
+
+  "monthLabelText": "Mes",
+  "yearLabelText": "Año",
+  "submitButtonText": "Ver",
+
+  "months": "Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"
+}

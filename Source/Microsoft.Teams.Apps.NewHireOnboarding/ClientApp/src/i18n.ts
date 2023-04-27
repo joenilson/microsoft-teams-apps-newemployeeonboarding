@@ -3,7 +3,7 @@ import { initReactI18next } from "react-i18next";
 import Backend from 'i18next-xhr-backend';
 import * as microsoftTeams from "@microsoft/teams-js";
 
-let locale = "en-US";
+let locale = "es-ES";
 microsoftTeams.initialize();
 microsoftTeams.getContext((context: microsoftTeams.Context) => {
     i18n.changeLanguage(context.locale!);

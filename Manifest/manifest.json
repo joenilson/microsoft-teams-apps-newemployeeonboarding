@@ -16,6 +16,10 @@
       {
         "languageTag": "en-US",
         "file": "en-US.json"
+      },
+      {
+        "languageTag": "es-ES",
+        "file": "es-ES.json"
       }
     ]
   },
@@ -24,14 +28,14 @@
     "outline": "outline.png"
   },
   "name": {
-    "short": "New Employee Onboarding",
-    "full": "New Employee Onboarding"
+    "short": "Incorporación de nuevos empleados",
+    "full": "Incorporación de nuevos empleados"
   },
   "description": {
-    "short": "New employee on boarding app will simplify employee on boarding",
-    "full": "New employee on boarding app will simplify the new employee on boarding using MS Teams and SharePoint Online. NEO bot will be created to cater to below requirements."
+    "short": "La nueva aplicación de incorporación de empleados simplificará la incorporación de empleados",
+    "full": "La aplicación de incorporación de nuevos empleados simplificará la incorporación de nuevos empleados utilizando MS Teams y SharePoint Online. El bot NEO se creará para satisfacer los siguientes requisitos."
   },
-  "accentColor": "#7BFFFE",
+  "accentColor": "#127E1D",
   "bots": [
     {
       "botId": "<<botId>>",
@@ -46,20 +50,20 @@
           ],
           "commands": [
             {
-              "title": "New employee checklist",
-              "description": "View your learning path"
+              "title": "Lista de verificación de nuevos empleados",
+              "description": "Ver tu ruta de aprendizaje"
             },
             {
-              "title": "Share feedback",
-              "description": "Submit an idea or feedback"
+              "title": "Compartir comentarios",
+              "description": "Envíe una idea o comentario"
             },
             {
-              "title": "Review introductions",
-              "description": "Review employee intros"
+              "title": "Revisar las introducciones",
+              "description": "Revisar las introducciones de los empleados"
             },
             {
-              "title": "Help",
-              "description": "Take a tour"
+              "title": "Ayuda",
+              "description": "Hacer un recorrido"
             }
           ]
         }
@@ -70,8 +74,8 @@
   ],
   "staticTabs": [
     {
-      "entityId": "Journey",
-      "name": "New employee checklist",
+      "entityId": "Ruta",
+      "name": "Lista de verificación de nuevos empleados",
       "contentUrl": "<<SharePointNewHireCheckListUrl>>",
       "scopes": [
         "personal"
