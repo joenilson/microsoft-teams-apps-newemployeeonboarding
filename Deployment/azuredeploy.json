@@ -27,7 +27,7 @@
     "appDisplayName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "New Employee Onboarding",
+      "defaultValue": "Inducción Nuevos Empleados",
       "metadata": {
         "description": "App display name."
       }

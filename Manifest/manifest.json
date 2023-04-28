@@ -5,13 +5,13 @@
   "id": "1c412988-ba71-40af-8b9b-b5be27fe3a6f",
   "packageName": "com.microsoft.teams.newemployeeonboarding",
   "developer": {
-    "name": "<company name>",
-    "websiteUrl": "<website Url>",
-    "privacyUrl": "<company privacy Url>",
-    "termsOfUseUrl": "<company terms of use Url>"
+    "name": "Industrias San Miguel",
+    "websiteUrl": "https://www.groupism.com",
+    "privacyUrl": "https://www.group-ism.com/wp-content/uploads/2019/12/POLITICAS-DE-PRIVACIDAD.pdf",
+    "termsOfUseUrl": "https://www.group-ism.com/wp-content/uploads/2019/12/POLITICAS-DE-PRIVACIDAD.pdf"
   },
   "localizationInfo": {
-    "defaultLanguageTag": "en",
+    "defaultLanguageTag": "es",
     "additionalLanguages": [
       {
         "languageTag": "en-US",
@@ -28,17 +28,17 @@
     "outline": "outline.png"
   },
   "name": {
-    "short": "Incorporación de nuevos empleados",
-    "full": "Incorporación de nuevos empleados"
+    "short": "Inducción de nuevos empleados",
+    "full": "Inducción de nuevos empleados"
   },
   "description": {
-    "short": "La nueva aplicación de incorporación de empleados simplificará la incorporación de empleados",
-    "full": "La aplicación de incorporación de nuevos empleados simplificará la incorporación de nuevos empleados utilizando MS Teams y SharePoint Online. El bot NEO se creará para satisfacer los siguientes requisitos."
+    "short": "La nueva aplicación de inducción de empleados simplificará el proceso",
+    "full": "La aplicación de inducción de nuevos empleados simplificará la inducción de nuevos empleados utilizando MS Teams y SharePoint Online. El bot NEO se creará para satisfacer los siguientes requisitos."
   },
   "accentColor": "#127E1D",
   "bots": [
     {
-      "botId": "<<botId>>",
+      "botId": "de702dd6-91fd-4601-94d3-5a869b625b92",
       "scopes": [
         "personal",
         "team"
@@ -50,7 +50,7 @@
           ],
           "commands": [
             {
-              "title": "Lista de verificación de nuevos empleados",
+              "title": "Lista de pasos de la inducción",
               "description": "Ver tu ruta de aprendizaje"
             },
             {
@@ -58,8 +58,8 @@
               "description": "Envíe una idea o comentario"
             },
             {
-              "title": "Revisar las introducciones",
-              "description": "Revisar las introducciones de los empleados"
+              "title": "Revisar las presentaciones",
+              "description": "Revisar las presentaciones de los empleados"
             },
             {
               "title": "Ayuda",
@@ -76,7 +76,7 @@
     {
       "entityId": "Ruta",
       "name": "Lista de verificación de nuevos empleados",
-      "contentUrl": "<<SharePointNewHireCheckListUrl>>",
+      "contentUrl": "https://groupism.sharepoint.com/sites/RepositorioGestinHumanaCorp/Lists/Induccin%20de%20Empleados/AllItems.aspx",
       "scopes": [
         "personal"
       ]
@@ -84,7 +84,7 @@
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "<<azurefdurl>>/config-tab",
+      "configurationUrl": "https://ism-ineapp.azurewebsites.net/config-tab",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
@@ -92,10 +92,12 @@
     }
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "ism-ineapp.azurewebsites.net",
+    "token.botframework.com",
+    "groupism.sharepoint.com"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "<ApplicationIdURI>"
+    "id": "de702dd6-91fd-4601-94d3-5a869b625b92",
+    "resource": "api://ism-ineapp.azurewebsites.net/de702dd6-91fd-4601-94d3-5a869b625b92"
   }
 }

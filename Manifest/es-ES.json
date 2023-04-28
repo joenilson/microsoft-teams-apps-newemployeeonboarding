@@ -1,16 +1,16 @@
 ﻿{
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
-  "name.short": "Incorporación de nuevos empleados",
-  "name.full": "Incorporación de nuevos empleados",
-  "description.short": "La app de incorporación de nuevos empleados simplificará su incorporación utilizando MS Teams y SharePoint Online",
-  "description.full": "La aplicación de incorporación de nuevos empleados simplificará la incorporación de nuevos empleados utilizando MS Teams y SharePoint Online. El bot NEO se creará para satisfacer los siguientes requisitos.",
-  "staticTabs[0].name": "Lista de verificación de nuevos empleados",
+  "name.short": "Inducción de nuevos empleados",
+  "name.full": "Inducción de nuevos empleados",
+  "description.short": "La app de inducción simplificará el proceso utilizando MS Teamsy Sharepoint",
+  "description.full": "La aplicación de inducción de nuevos empleados simplificará la incorporación de nuevos empleados utilizando MS Teams y SharePoint Online. El bot NEO se creará para satisfacer los siguientes requisitos.",
+  "staticTabs[0].name": "Lista de pasos de inducción",
   "bots[0].commandLists[0].commands[0].title": "Lista de verificación de nuevos empleados",
   "bots[0].commandLists[0].commands[0].description": "Ver tu ruta de aprendizaje",
   "bots[0].commandLists[0].commands[0].title": "Compartir comentarios",
   "bots[0].commandLists[0].commands[0].description": "Envíe una idea o comentario",
-  "bots[0].commandLists[0].commands[0].title": "Revisar las introducciones",
-  "bots[0].commandLists[0].commands[0].description": "Revisar las introducciones de los empleados",
+  "bots[0].commandLists[0].commands[0].title": "Revisar las presentaciones",
+  "bots[0].commandLists[0].commands[0].description": "Revisar las presentaciones de los empleados",
   "bots[0].commandLists[0].commands[0].title": "Ayuda",
   "bots[0].commandLists[0].commands[0].description": "Hacer un recorrido"
 }
