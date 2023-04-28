@@ -1,12 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "1c412988-ba71-40af-8b9b-b5be27fe3a6f",
   "packageName": "com.microsoft.teams.newemployeeonboarding",
   "developer": {
     "name": "Industrias San Miguel",
-    "websiteUrl": "https://www.groupism.com",
+    "websiteUrl": "https://www.group-ism.com",
     "privacyUrl": "https://www.group-ism.com/wp-content/uploads/2019/12/POLITICAS-DE-PRIVACIDAD.pdf",
     "termsOfUseUrl": "https://www.group-ism.com/wp-content/uploads/2019/12/POLITICAS-DE-PRIVACIDAD.pdf"
   },
@@ -93,6 +93,7 @@
   ],
   "validDomains": [
     "ism-ineapp.azurewebsites.net",
+    "grupoismservicios.net",
     "token.botframework.com",
     "groupism.sharepoint.com"
   ],
